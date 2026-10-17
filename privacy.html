@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy — Downloads Drive Archive</title>
+<link rel="stylesheet" href="style.css">
+<main>
+<a href="index.html">Downloads Drive Archive</a>
+<h1>Privacy policy</h1>
+<p>Effective October 17, 2026. This application is a personal utility operated locally by its sole user.</p>
+<h2>Data accessed and purpose</h2>
+<p>The utility reads completed files and file metadata within the local Downloads folder, uploads them to the user's Google Drive, and reads Drive file metadata and checksums to verify transfers. It reads the signed-in account's email address to confirm that the destination is the intended account.</p>
+<h2>Storage and sharing</h2>
+<p>File contents are transmitted directly from the user's Mac to Google Drive using rclone. Google processes the data under its own applicable terms and privacy policy. No separate application server receives the files. The utility does not sell data, share it with advertising or analytics services, or use it to train AI models.</p>
+<p>OAuth credentials are stored locally with owner-only file permissions outside the Downloads folder. Local verification records store hashed file identifiers, file fingerprints, and verification times. Routine utility logs contain aggregate counts and status information.</p>
+<h2>Retention and control</h2>
+<p>Local files are retained for at least seven days after their first verified upload; modification restarts this period. Eligible local files are removed only after the Drive copy is checked again. Archived Drive files and previous versions remain until the user removes them. Disabling the macOS scheduled job stops future processing.</p>
+<p>The user can revoke access through <a href="https://myaccount.google.com/connections">Google Account connections</a> and can remove archived files directly in Google Drive. Revoking access does not automatically delete existing archives.</p>
+<h2>Limited use</h2>
+<p>Use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including its Limited Use requirements.</p>
+<h2>Contact</h2>
+<p>The developer support address is provided on the Google OAuth consent screen. The sole user is also the operator of the utility.</p>
+<nav aria-label="Policies"><a href="index.html">Home</a></nav>
+</main>
+</html>
